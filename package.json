@@ -5,6 +5,7 @@
   "main": "app.js",
   "license": "MIT",
   "scripts": {
+		"prepublish" :"npm install sqlite3",
     "test": "npm run-script standard",
     "standard": "node ./node_modules/standard/bin/cmd.js",
     "dev": "webpack --config webpack.config.js --progress --colors --watch",
